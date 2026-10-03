@@ -19,7 +19,7 @@ const CONFIG = {
   scan:     "https://solscan.io/token/HXAMq5WF7sR8Dih6GDzUczsWJMU6VHPFaNKxfxqwpump",
 
   // Socials
-  twitter:  "https://x.com/grokbot_x",
+  twitter:  "https://x.com/grokbotonx",
   telegram: "",
 
   supply:   "",
