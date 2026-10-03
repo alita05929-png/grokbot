@@ -138,7 +138,7 @@
 
     paintBackdrop();
 
-    // halo behind the pup, in the chosen glow colour
+    // halo behind the orb, in the chosen glow colour
     var halo = ctx.createRadialGradient(OUT / 2, OUT * 0.52, 20, OUT / 2, OUT * 0.52, INNER);
     halo.addColorStop(0, rgba(state.glow, 0.5));
     halo.addColorStop(0.45, rgba(state.glow, 0.16));
@@ -146,13 +146,13 @@
     ctx.fillStyle = halo;
     ctx.fillRect(0, 0, OUT, OUT);
 
-    // Baby — identical placement every time
+    // GrokBot — identical placement every time
     if (sueReady) {
       var s = INNER * 2 * 0.9;
       ctx.drawImage(sue, OUT / 2 - s / 2, OUT / 2 - s / 2 + INNER * 0.02, s, s);
     }
 
-    // vignette so she always sits into the frame the same way
+    // vignette so the orb always sits into the frame the same way
     var vig = ctx.createRadialGradient(OUT / 2, OUT / 2, INNER * 0.62, OUT / 2, OUT / 2, INNER);
     vig.addColorStop(0, "rgba(0,0,0,0)");
     vig.addColorStop(1, "rgba(0,0,0,0.34)");
