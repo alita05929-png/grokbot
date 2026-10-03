@@ -10,13 +10,13 @@
      · empty link      → button points at the X account instead
    ───────────────────────────────────────────────────────────── */
 const CONFIG = {
-  // Solana mint address. Leave "" until the contract is published.
-  contract: "",
+  // Solana mint address.
+  contract: "HXAMq5WF7sR8Dih6GDzUczsWJMU6VHPFaNKxfxqwpump",
 
   // Trading + chart links
-  buy:      "",
-  chart:    "",
-  scan:     "",
+  buy:      "https://pump.fun/coin/HXAMq5WF7sR8Dih6GDzUczsWJMU6VHPFaNKxfxqwpump",
+  chart:    "https://dexscreener.com/solana/HXAMq5WF7sR8Dih6GDzUczsWJMU6VHPFaNKxfxqwpump",
+  scan:     "https://solscan.io/token/HXAMq5WF7sR8Dih6GDzUczsWJMU6VHPFaNKxfxqwpump",
 
   // Socials
   twitter:  "https://x.com/grokbot_x",
