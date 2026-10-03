@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>GrokBot — $GROKBOT</title>
+<meta name="description" content="GrokBot ($GROKBOT) is a community memecoin on Solana. A white orb with two black eyes. Built to launch." />
+<meta name="theme-color" content="#070814" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="GrokBot" />
+<meta property="og:title" content="GrokBot — $GROKBOT" />
+<meta property="og:description" content="A white orb with two black eyes. Moon at its back. City at its feet. $GROKBOT on Solana." />
+<meta property="og:image" content="assets/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:alt" content="GrokBot banner. A white orb with two black eyes above a neon city. Ticker GROKBOT." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="GrokBot — $GROKBOT" />
+<meta name="twitter:description" content="A white orb with two black eyes. Moon at its back. City at its feet. $GROKBOT on Solana." />
+<meta name="twitter:image" content="assets/og.jpg" />
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Titan+One&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="tape tape--top" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top">
+    <img src="assets/logo-nav.png" alt="" width="44" height="44" />
+    <span class="nav__id">
+      <strong>GrokBot</strong>
+      <small>$GROKBOT</small>
+    </span>
+  </a>
+
+  <nav class="nav__links" id="navLinks">
+    <a href="#story">Story</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#buy">How to Buy</a>
+    <a href="#grok-pfp">Grok PFP</a>
+    <a href="#faq">FAQ</a>
+    <a class="btn btn--sm btn--yellow nav__cta" data-link="buy" href="#buy">Buy</a>
+  </nav>
+
+  <button class="nav__toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="hero__top">
+    <div class="hero__copy reveal">
+      <p class="eyebrow"><span class="dot"></span> Community memecoin · Solana</p>
+
+      <h1 class="hero__title">
+        <span class="hero__title-line">MEET</span>
+        <span class="hero__title-line hero__title-line--big">GROK</span>
+        <span class="hero__title-line hero__title-line--name">BOT</span>
+      </h1>
+
+      <p class="hero__ticker">$GROKBOT</p>
+
+      <p class="hero__tag">A white orb with two black eyes.<br />
+        Moon at its back. City at its feet.<br />
+        <strong>Built to launch.</strong></p>
+
+      <div class="hero__actions">
+        <a class="btn btn--yellow" data-link="buy" href="#buy">Buy $GROKBOT</a>
+        <a class="btn btn--ghost" data-link="chart" href="#buy">View Chart</a>
+      </div>
+
+      <div class="ca" id="ca">
+        <div class="ca__label">Contract Address <span class="ca__chain">SOL</span></div>
+        <button class="ca__row" id="caCopy" type="button" title="Copy contract address">
+          <code id="caText">Loading…</code>
+          <span class="ca__btn" id="caBtnText">Copy</span>
+        </button>
+        <p class="ca__warn">Only use the contract published on this page. Anything else is a fake.
+          <a data-link="scan" href="#" target="_blank" rel="noopener">Check it on Solscan ↗</a></p>
+      </div>
+    </div>
+
+    <figure class="hero__mark reveal">
+      <img src="assets/mark.png" alt="GrokBot, a white orb with two black eyes, above a neon city with the moon behind it" width="1024" height="1024" />
+    </figure>
+  </div>
+
+  <div class="wrap">
+    <figure class="hero__banner reveal">
+      <img src="assets/banner.png" alt="GrokBot banner. A white orb with two black eyes beside the word GrokBot, over a neon city and the moon." width="1500" height="500" />
+    </figure>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>GROKBOT</span><b>★</b><span>$GROKBOT</span><b>★</b><span>BUILT TO LAUNCH</span><b>★</b>
+    <span>SOLANA</span><b>★</b><span>TWO EYES</span><b>★</b>
+    <span>GROKBOT</span><b>★</b><span>$GROKBOT</span><b>★</b><span>BUILT TO LAUNCH</span><b>★</b>
+    <span>SOLANA</span><b>★</b><span>TWO EYES</span><b>★</b>
+  </div>
+</div>
+
+<section class="section section--story" id="story">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">The mascot</p>
+      <h2>TWO EYES.<br />ONE TICKER.</h2>
+    </header>
+
+    <div class="story">
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__no">01</span>
+          <h3>Already looking</h3>
+          <p>GrokBot showed up finished. A white shell, two black eyes, and a skyline caught in the curve.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__no">02</span>
+          <h3>Named in one word</h3>
+          <p>Not a planet. Not a promise. <strong>GrokBot</strong> — the roundest thing on the chart with the shortest face.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__no">03</span>
+          <h3>The face is the suit</h3>
+          <p>No helmet to take off. No tag to misread. Two eyes, and the job is to keep them open.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__no">04</span>
+          <h3>Then a ticker</h3>
+          <p><strong>$GROKBOT</strong> is a community memecoin on Solana. No product, no venture round. Just the orb.</p>
+        </li>
+      </ol>
+
+      <div class="story__side">
+        <figure class="photo photo--story reveal">
+          <img src="assets/portrait.png" alt="GrokBot, the white orb, standing over a neon city with the moon behind it" width="768" height="1024" />
+          <figcaption>GrokBot · $GROKBOT</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--spec" id="tokenomics">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Flight plan</p>
+      <h2>TOKENOMICS</h2>
+      <p class="sec-sub">Simple on purpose. One orb, one ticker, one contract.</p>
+    </header>
+
+    <div class="specs">
+      <div class="spec reveal">
+        <span class="spec__k">Name</span>
+        <span class="spec__v">GROKBOT</span>
+        <span class="spec__n">The orb with two eyes. Nothing else on the face.</span>
+      </div>
+      <div class="spec reveal spec--hero">
+        <span class="spec__k">Ticker</span>
+        <span class="spec__v">$GROKBOT</span>
+        <span class="spec__n">One ticker. Check every character before you swap.</span>
+      </div>
+      <div class="spec reveal">
+        <span class="spec__k">Chain</span>
+        <span class="spec__v">SOLANA</span>
+        <span class="spec__n">SPL token on Solana.</span>
+      </div>
+      <div class="spec reveal">
+        <span class="spec__k">Contract</span>
+        <span class="spec__v">ON THIS PAGE</span>
+        <span class="spec__n">The address at the top is the only one that counts.</span>
+      </div>
+      <div class="spec reveal">
+        <span class="spec__k">Kind</span>
+        <span class="spec__v">MEMECOIN</span>
+        <span class="spec__n">No product, no roadmap, no venture round.</span>
+      </div>
+      <div class="spec reveal">
+        <span class="spec__k">Art</span>
+        <span class="spec__v">THE ORB</span>
+        <span class="spec__n">White shell, two eyes. That is the brand.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--buy" id="buy">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Launch checklist</p>
+      <h2>HOW TO BUY $GROKBOT</h2>
+      <p class="sec-sub">Four steps on Solana. The contract address is not optional.</p>
+    </header>
+
+    <div class="cards">
+      <article class="card reveal">
+        <span class="card__no">1</span>
+        <h3>Get a wallet</h3>
+        <p>Install <strong>Phantom</strong> or <strong>Solflare</strong>. Write your seed phrase on paper, not in your notes app.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card__no">2</span>
+        <h3>Load up on SOL</h3>
+        <p>Buy SOL on any exchange and send it to your wallet. Keep a little spare for fees — Solana fees are tiny, but they are not zero.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card__no">3</span>
+        <h3>Open pump.fun</h3>
+        <p>Connect your wallet and open the official coin page, or paste the <strong>$GROKBOT contract</strong> from the top of this page. Double-check every character.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card__no">4</span>
+        <h3>Swap and look up</h3>
+        <p>Swap SOL for $GROKBOT and confirm in your wallet. Only after the contract matches this page.</p>
+      </article>
+    </div>
+
+    <div class="buy-cta reveal">
+      <a class="btn btn--yellow btn--lg" data-link="buy" href="#">Buy $GROKBOT</a>
+      <a class="btn btn--ghost btn--lg" data-link="chart" href="#">DexScreener Chart</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tool" id="grok-pfp">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Crew tools</p>
+      <h2>GROK PFP</h2>
+      <p class="sec-sub"><strong>Built to launch.</strong> Build a GrokBot portrait in your own colours, or drop the orb onto a picture you already have.</p>
+    </header>
+
+    <p class="tool-split reveal"><span>Build a portrait</span></p>
+
+    <div class="hc reveal" id="hc">
+      <div class="hc__build">
+        <div class="hc__stage"><canvas id="hcCanvas" width="1000" height="1000"></canvas></div>
+
+        <div class="hc__panel">
+          <div class="hc__group">
+            <span class="hc__label">Backdrop</span>
+            <div class="hc__row hc__row--tight" id="hcStyles">
+              <button type="button" data-style="glow" class="is-on">Glow</button>
+              <button type="button" data-style="stars">Stars</button>
+              <button type="button" data-style="nebula">Nebula</button>
+              <button type="button" data-style="solid">Solid</button>
+            </div>
+          </div>
+
+          <div class="hc__group">
+            <span class="hc__label">Backdrop colour</span>
+            <div class="hc__swatches" id="hcBgColors"></div>
+          </div>
+
+          <div class="hc__group">
+            <span class="hc__label">Ring colour</span>
+            <div class="hc__swatches" id="hcRingColors"></div>
+          </div>
+
+          <div class="hc__group">
+            <span class="hc__label">Glow colour</span>
+            <div class="hc__swatches" id="hcGlowColors"></div>
+          </div>
+
+          <div class="hc__group">
+            <span class="hc__label">Extras</span>
+            <div class="hc__row hc__row--tight">
+              <button type="button" id="hcBadgeToggle" aria-pressed="false">Ticker badge</button>
+              <button type="button" id="hcRandom">🎲 Randomise</button>
+            </div>
+          </div>
+
+          <div class="hc__row">
+            <button type="button" id="hcDownload" class="is-primary">⬇ Download PFP</button>
+            <button type="button" id="hcCopy">⧉ Copy</button>
+          </div>
+
+          <p class="hc__hint">1000&times;1000 square, sized for X &mdash; upload it as your profile picture and it crops to the circle exactly.
+            GrokBot never changes — only the colours around it do.</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="tool-split tool-split--2 reveal" id="sticker"><span>Or bring your own picture</span></p>
+
+    <div class="hh reveal" id="hh">
+      <div class="hh__drop" id="hhDrop" role="button" tabindex="0"
+           aria-label="Drop an image, click to browse, or paste">
+        <img class="hh__mascot" src="assets/mascot.png" alt="" />
+        <h3>Drop an image, click to browse, or paste</h3>
+        <p>Put GrokBot on it. Everything runs in your browser — nothing gets uploaded.</p>
+      </div>
+
+      <div class="hh__editor" id="hhEditor">
+        <div class="hh__stage"><canvas id="hhCanvas"></canvas></div>
+
+        <div class="hh__row">
+          <button type="button" id="hhAdd">+ Add GrokBot</button>
+          <button type="button" id="hhFlip">↔ Flip</button>
+          <button type="button" id="hhDel" class="is-danger">✕ Remove</button>
+          <button type="button" id="hhNew">↺ New image</button>
+        </div>
+
+        <div class="hh__row">
+          <button type="button" id="hhDownload" class="is-primary">⬇ Download</button>
+          <button type="button" id="hhCopy">⧉ Copy</button>
+        </div>
+
+        <p class="hh__hint">Drag the orb to move it · drag the corner dot to resize &amp; rotate · scroll to scale</p>
+      </div>
+
+      <input type="file" id="hhFile" accept="image/*" />
+    </div>
+  </div>
+</section>
+
+<section class="section section--faq" id="faq">
+  <div class="wrap wrap--narrow">
+    <header class="sec-head reveal">
+      <p class="eyebrow">Ground control</p>
+      <h2>FAQ</h2>
+    </header>
+
+    <div class="faq">
+      <details class="reveal" open>
+        <summary>What is GrokBot?</summary>
+        <p>A community mascot: a white orb with two black eyes, set against a moon and a neon skyline. The token uses that name and nothing else.</p>
+      </details>
+      <details class="reveal">
+        <summary>What is the ticker?</summary>
+        <p><strong>$GROKBOT</strong>. Not a shorter nickname, not a lookalike spelling. If the ticker or the logo does not match this page, it is not this token.</p>
+      </details>
+      <details class="reveal">
+        <summary>What does $GROKBOT actually do?</summary>
+        <p>It is a memecoin. No product, no business model, no roadmap. The art is the orb. The chain is Solana.</p>
+      </details>
+      <details class="reveal">
+        <summary>Where do I buy it?</summary>
+        <p>On Solana, using the contract address at the top of this page. The buy button opens that coin on pump.fun.</p>
+      </details>
+      <details class="reveal">
+        <summary>How do I avoid buying a fake?</summary>
+        <p>Only ever use the contract address on this page. Scammers copy the name, the orb, and the ticker within minutes of any launch. Read every character.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section section--join">
+  <div class="wrap">
+    <div class="join reveal">
+      <div class="join__copy">
+        <h2>JOIN THE FLIGHT</h2>
+        <p>Follow along for updates on $GROKBOT.</p>
+      </div>
+      <div class="join__links">
+        <a class="social" data-link="twitter" href="https://x.com/grokbot_x" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-7.1 8.1L23.2 22h-6.6l-5.2-6.8L5.5 22H2.4l7.6-8.7L1.2 2h6.8l4.7 6.2L18.9 2Zm-1.1 18h1.7L7.3 3.8H5.5L17.8 20Z"/></svg>
+          <span>X / Twitter</span>
+        </a>
+        <a class="social" data-link="telegram" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42Z"/></svg>
+          <span>Telegram</span>
+        </a>
+        <a class="social" data-link="chart" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21V3h2v16h16v2H3Zm4-4V11h3v6H7Zm5 0V7h3v10h-3Zm5 0v-4h3v4h-3Z"/></svg>
+          <span>Chart</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div class="tape tape--bottom" aria-hidden="true"></div>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img src="assets/logo-nav.png" alt="" width="52" height="52" />
+        <div>
+          <strong>GrokBot</strong>
+          <span>$GROKBOT · Solana</span>
+        </div>
+      </div>
+      <nav class="footer__nav">
+        <a href="#story">Story</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a href="#buy">How to Buy</a>
+        <a href="#grok-pfp">Grok PFP</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+
+    <p class="disclaimer">
+      <strong>Disclaimer:</strong> $GROKBOT is a meme coin with no intrinsic value, no expectation of financial return,
+      and no formal team or roadmap commitments. It is not an investment, a security, or financial advice. Crypto assets are
+      highly volatile and you should assume you could lose everything you put in. Do your own research.
+      This site is not affiliated with or endorsed by pump.fun or Solana.
+    </p>
+
+    <p class="copyright">© <span id="year">2026</span> GrokBot · $GROKBOT</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="hardhat-pfp.js"></script>
+<script src="hardhat-overlay.js"></script>
+</body>
+</html>
